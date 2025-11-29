@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
             <p className="text-neutral-700 leading-relaxed">
-              Quartz Aesthetics ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website lipofirmbanbury.co.uk and use our services.
+              Quartz Aesthetics ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website skintightbanbury.co.uk and use our services.
             </p>
           </section>
 

@@ -20,23 +20,23 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://lipofirmbanbury.co.uk'),
+  metadataBase: new URL('https://skintightbanbury.co.uk'),
   alternates: {
-    canonical: 'https://lipofirmbanbury.co.uk',
+    canonical: 'https://skintightbanbury.co.uk',
   },
   openGraph: {
     title: 'Post-Ozempic Skin Tightening | Tighten Loose Skin After Weight Loss | Quartz Aesthetics Banbury',
     description: 'Lost weight on Ozempic, Wegovy or Mounjaro? Tighten loose skin with Lipofirm RF technology. Non-surgical skin tightening in Banbury. Courses from £480. No downtime.',
-    url: 'https://lipofirmbanbury.co.uk',
+    url: 'https://skintightbanbury.co.uk',
     siteName: 'Quartz Aesthetics - Skin Tightening Banbury',
     type: 'website',
     locale: 'en_GB',
     images: [
       {
-        url: 'https://lipofirmbanbury.co.uk/images/lipofirm-results.png',
+        url: 'https://skintightbanbury.co.uk/images/pamela-crombie.webp',
         width: 1200,
         height: 630,
-        alt: 'Lipofirm Skin Tightening Results - Quartz Aesthetics Banbury',
+        alt: 'Pamela Crombie - Skin Tightening Specialist at Quartz Aesthetics Banbury',
       },
     ],
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Post-Ozempic Skin Tightening Banbury | Quartz Aesthetics',
     description: 'Tighten loose skin after weight loss. Lipofirm RF skin tightening - no surgery, no downtime. Courses from £480.',
-    images: ['https://lipofirmbanbury.co.uk/images/lipofirm-results.png'],
+    images: ['https://skintightbanbury.co.uk/images/pamela-crombie.webp'],
   },
   robots: {
     index: true,

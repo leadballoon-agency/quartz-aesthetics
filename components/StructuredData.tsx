@@ -4,13 +4,13 @@ export default function StructuredData() {
     "@type": "BeautySalon",
     "name": "Quartz Aesthetics",
     "alternateName": "Quartz The Hidden Gem Aesthetics",
-    "url": "https://lipofirmbanbury.co.uk",
+    "url": "https://skintightbanbury.co.uk",
     "sameAs": [
-      "https://lipofirmbanbury.co.uk",
+      "https://skintightbanbury.co.uk",
       "https://quartzaesthetics.co.uk"
     ],
-    "logo": "https://lipofirmbanbury.co.uk/images/quartz-logo.png",
-    "image": "https://lipofirmbanbury.co.uk/images/lipofirm-results.png",
+    "logo": "https://skintightbanbury.co.uk/images/quartz-logo.png",
+    "image": "https://skintightbanbury.co.uk/images/pamela-crombie.webp",
     "description": "Specialist skin tightening clinic in Banbury, Oxfordshire. Helping clients tighten loose skin after weight loss from Ozempic, Wegovy, Mounjaro or natural methods. RF Lipofirm treatments led by experienced practitioner Pamela Crombie.",
     "address": {
       "@type": "PostalAddress",
@@ -112,7 +112,7 @@ export default function StructuredData() {
     "@type": "WebSite",
     "name": "Quartz Aesthetics - Skin Tightening Banbury",
     "alternateName": "Post-Ozempic Skin Tightening Banbury",
-    "url": "https://lipofirmbanbury.co.uk",
+    "url": "https://skintightbanbury.co.uk",
     "description": "Specialist skin tightening for loose skin after weight loss from Ozempic, Wegovy, Mounjaro. RF Lipofirm treatment in Banbury by experienced practitioner Pamela Crombie",
     "publisher": {
       "@type": "Organization",
@@ -120,7 +120,7 @@ export default function StructuredData() {
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://lipofirmbanbury.co.uk/?s={search_term_string}",
+      "target": "https://skintightbanbury.co.uk/?s={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -130,7 +130,7 @@ export default function StructuredData() {
     "@type": "BeautySalon",
     "name": "Quartz Aesthetics",
     "alternateName": "Post-Ozempic Skin Tightening Banbury",
-    "image": "https://lipofirmbanbury.co.uk/images/quartz-clinic.jpg",
+    "image": "https://skintightbanbury.co.uk/images/quartz-aesthetics-clinic-landscape.webp",
     "description": "Specialist skin tightening clinic in Banbury, Oxfordshire. Helping clients tighten loose skin after weight loss from Ozempic, Wegovy, Mounjaro. RF Lipofirm treatments with visible results, zero downtime.",
     "address": {
       "@type": "PostalAddress",
@@ -145,7 +145,7 @@ export default function StructuredData() {
       "latitude": "52.0629",
       "longitude": "-1.3397"
     },
-    "url": "https://lipofirmbanbury.co.uk",
+    "url": "https://skintightbanbury.co.uk",
     "telephone": "+441295985001",
     "email": "quartzaesthetics@gmail.com",
     "priceRange": "££",
@@ -230,7 +230,7 @@ export default function StructuredData() {
     ],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "serviceUrl": "https://lipofirmbanbury.co.uk",
+      "serviceUrl": "https://skintightbanbury.co.uk",
       "serviceSmsNumber": "+447826755534"
     },
     "category": "Beauty Treatment",
@@ -261,6 +261,93 @@ export default function StructuredData() {
         }
       ]
     }
+  }
+
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pamela Crombie",
+    "jobTitle": "Founder & Skin Tightening Specialist",
+    "image": "https://skintightbanbury.co.uk/images/pamela-crombie.webp",
+    "description": "Pamela Crombie is the founder of Quartz Aesthetics, specialising in helping clients who have experienced significant weight loss - whether through GLP-1 medications like Ozempic and Wegovy, or traditional methods - to tighten and firm their loose skin using advanced RF Lipofirm technology.",
+    "url": "https://skintightbanbury.co.uk",
+    "worksFor": {
+      "@type": "BeautySalon",
+      "name": "Quartz Aesthetics",
+      "url": "https://skintightbanbury.co.uk"
+    },
+    "knowsAbout": [
+      "RF Skin Tightening",
+      "Lipofirm Treatment",
+      "Post-Weight Loss Skin Laxity",
+      "GLP-1 Medication Side Effects",
+      "Collagen Stimulation Therapy",
+      "Non-Surgical Body Contouring"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "The Wellness Centre, 54 Bloxham Road",
+      "addressLocality": "Banbury",
+      "addressRegion": "Oxfordshire",
+      "postalCode": "OX16 9JR",
+      "addressCountry": "GB"
+    },
+    "telephone": "+441295985001"
+  }
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can Lipofirm help with loose skin after Ozempic or Wegovy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Lipofirm is particularly effective for addressing the loose, sagging skin that can result from rapid weight loss on GLP-1 medications like Ozempic, Wegovy, or Mounjaro. The RF technology stimulates your body's natural collagen production to tighten and firm the skin over a course of treatments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many sessions will I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For optimal results, we recommend a course of 6 sessions (one per week) at £480. For more significant skin laxity after substantial weight loss, a course of 12 sessions at £900 delivers the best transformation. You'll start seeing improvements from session 3-4."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there any downtime after treatment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No downtime at all. Lipofirm is completely non-invasive. You can return to your normal activities immediately after each session. Some clients experience mild warmth or redness in the treated area, which typically subsides within a few hours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas can be treated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lipofirm is effective on multiple areas including tummy, arms (bingo wings), thighs, buttocks, and the face/jawline. These are the most common areas affected by loose skin after weight loss from GLP-1 medications or natural weight loss."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do results last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Results are long-lasting as the treatment stimulates your body's own collagen production. With a healthy lifestyle and stable weight, results can last 12-18 months or longer. We recommend maintenance sessions every 2-3 months to maintain optimal skin firmness."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Lipofirm suitable while still taking Ozempic?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Many clients continue their GLP-1 medication while having Lipofirm treatments. In fact, starting skin tightening during your weight loss journey can help prevent excessive skin laxity. We recommend discussing with your prescriber if you have any concerns."
+        }
+      }
+    ]
   }
 
   const reviewSchema = {
@@ -365,6 +452,14 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <script
         type="application/ld+json"

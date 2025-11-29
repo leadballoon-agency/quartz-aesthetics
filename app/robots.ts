@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/', '/_next/'],
     },
-    sitemap: 'https://co2laser.co/sitemap.xml',
+    sitemap: 'https://skintightbanbury.co.uk/sitemap.xml',
   }
 }
