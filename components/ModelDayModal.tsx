@@ -148,14 +148,14 @@ Here's a photo of my concern area:`
 
           {/* Call Option */}
           <a
-            href="tel:+447826755534"
+            href="tel:+447476903007"
             onClick={trackPhoneClick}
             className="flex items-center justify-center w-full text-primary-600 hover:text-primary-700 text-sm sm:text-base font-medium transition-colors"
           >
             <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
-            Prefer to call? 07826 755534
+            Prefer to call? 07476 903007
           </a>
         </div>
       </div>

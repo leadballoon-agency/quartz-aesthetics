@@ -205,7 +205,7 @@ export default function StructuredData() {
         "postalCode": "OX16 9JR",
         "addressCountry": "GB"
       },
-      "telephone": "+441295985001"
+      "telephone": "+447476903007"
     },
     "areaServed": [
       "Banbury",
@@ -275,7 +275,7 @@ export default function StructuredData() {
       "postalCode": "OX16 9JR",
       "addressCountry": "GB"
     },
-    "telephone": "+441295985001"
+    "telephone": "+447476903007"
   }
 
   const faqSchema = {
