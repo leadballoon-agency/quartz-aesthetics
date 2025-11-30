@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-HIFU (High-Intensity Focused Ultrasound) non-surgical facelift landing page for Amethyst Aesthetics Beauty. Built with Next.js 15 App Router, TypeScript, and Tailwind CSS. Domain: hifusomerset.co.uk
+Lipofirm RF skin tightening landing page for Quartz Aesthetics. Built with Next.js 15 App Router, TypeScript, and Tailwind CSS. Domain: skintightbanbury.co.uk
 
 ## Development Commands
 
@@ -18,7 +18,7 @@ npm run lint       # Run ESLint
 
 ### Page Structure
 
-The site is a single-page landing page with modal overlays:
+Single-page landing page with modal overlays:
 
 - `app/page.tsx` → renders `PageWrapper` component
 - `components/PageWrapper.tsx` → orchestrates all sections and manages modal state
@@ -40,6 +40,7 @@ The site is a single-page landing page with modal overlays:
 | `BookingModal.tsx` | Booking form, receives assessment data |
 | `StructuredData.tsx` | JSON-LD schema markup for SEO |
 | `FacebookPixel.tsx` | Meta Pixel tracking |
+| `ConvertBox.tsx` | ConvertBox popup integration |
 
 ### API Routes
 
@@ -64,9 +65,8 @@ The site is a single-page landing page with modal overlays:
 ### Content Updates
 
 - `PremiumHero.tsx` - Hero messaging and video
-- `AboutSection.tsx` - Clinic description
-- `TeamSection.tsx` - Practitioner info
-- `PremiumTreatments.tsx` - Pricing
+- `AboutSection.tsx` - Clinic description and practitioner info
+- `PremiumTreatments.tsx` - Pricing (currently 8 sessions @ £640)
 - `FAQ.tsx` - Q&A content
 - `ResultsGallery.tsx` - Before/after images
 

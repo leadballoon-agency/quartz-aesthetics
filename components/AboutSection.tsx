@@ -7,7 +7,7 @@ export default function AboutSection({ onBookingClick }: AboutSectionProps) {
     {
       name: 'Pamela Crombie',
       title: 'Founder & Skin Tightening Specialist',
-      image: '/images/pamela-crombie.webp',
+      image: '/images/Pamela-Crombie.jpeg',
       bio: "As the founder of Quartz Aesthetics, I specialise in helping clients who've experienced significant weight loss - whether through GLP-1 medications like Ozempic and Wegovy, or traditional methods - to tighten and firm their loose skin. Using advanced RF technology, Lipofirm stimulates your body's natural collagen production to restore skin firmness without surgery or downtime. Based in Banbury, I'm passionate about helping you feel confident in your transformed body.",
       qualifications: [
         'Post-Weight Loss Skin Expert',
