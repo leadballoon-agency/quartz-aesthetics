@@ -66,7 +66,7 @@ Single-page landing page with modal overlays:
 
 - `PremiumHero.tsx` - Hero messaging and video
 - `AboutSection.tsx` - Clinic description and practitioner info
-- `PremiumTreatments.tsx` - Pricing (currently 8 sessions @ £640)
+- `PremiumTreatments.tsx` - Pricing (£99 intro, £380/4 sessions, £770/8 sessions)
 - `FAQ.tsx` - Q&A content
 - `ResultsGallery.tsx` - Before/after images
 

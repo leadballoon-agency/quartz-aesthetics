@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Post-Ozempic Skin Tightening Banbury | Loose Skin After Weight Loss | Quartz Aesthetics',
-  description: 'Tighten loose skin after Ozempic, Wegovy or Mounjaro weight loss. Lipofirm RF skin tightening in Banbury stimulates collagen for firmer skin. No surgery, no downtime. Full course £640. Book your free consultation.',
+  description: 'Tighten loose skin after Ozempic, Wegovy or Mounjaro weight loss. Lipofirm RF skin tightening in Banbury stimulates collagen for firmer skin. No surgery, no downtime. From £99. Book your free consultation.',
   keywords: 'post Ozempic skin tightening, Wegovy loose skin treatment, Mounjaro skin laxity, GLP-1 weight loss skin, Lipofirm Banbury, skin tightening Banbury, loose skin after weight loss, RF skin tightening, collagen stimulation, non-surgical skin tightening, Quartz Aesthetics, body contouring Oxfordshire',
   authors: [{ name: 'Quartz Aesthetics' }],
   creator: 'Quartz Aesthetics',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Post-Ozempic Skin Tightening | Tighten Loose Skin After Weight Loss | Quartz Aesthetics Banbury',
-    description: 'Lost weight on Ozempic, Wegovy or Mounjaro? Tighten loose skin with Lipofirm RF technology. Non-surgical skin tightening in Banbury. Full course £640. No downtime.',
+    description: 'Lost weight on Ozempic, Wegovy or Mounjaro? Tighten loose skin with Lipofirm RF technology. Non-surgical skin tightening in Banbury. From £99. No downtime.',
     url: 'https://skintightbanbury.co.uk',
     siteName: 'Quartz Aesthetics - Skin Tightening Banbury',
     type: 'website',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Post-Ozempic Skin Tightening Banbury | Quartz Aesthetics',
-    description: 'Tighten loose skin after weight loss. Lipofirm RF skin tightening - no surgery, no downtime. Full course £640.',
+    description: 'Tighten loose skin after weight loss. Lipofirm RF skin tightening - no surgery, no downtime. From £99.',
     images: ['https://skintightbanbury.co.uk/images/pamela-crombie.webp'],
   },
   robots: {

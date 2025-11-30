@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'How many treatments will I need?',
-    answer: "A full course is 8 weekly sessions, which gives optimal skin tightening results. This allows your body time to produce new collagen between sessions. You'll start seeing improvements from session 3-4, with full results visible after completing the course."
+    answer: "We offer a 4 session course (£380) for visible results, or a full 8 session course (£770) for complete transformation. Start with a consultation + first session for just £99 to see how your skin responds. You'll start seeing improvements from session 3-4, with full results visible after completing the course."
   },
   {
     question: 'Which areas can be treated for skin tightening?',

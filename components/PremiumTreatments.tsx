@@ -8,21 +8,32 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
   const treatments = [
     {
       icon: '✦',
-      title: 'Single Lipofirm Session',
+      title: 'Consultation + First Session',
       description: 'Try RF skin tightening',
-      features: ['One area treatment', 'Skin tightening & firming', 'No downtime required', 'Feel results immediately'],
+      features: ['Free skin consultation', 'Full treatment session', 'Personalised plan', 'No obligation'],
       price: '£99',
       gradient: 'from-primary-400 to-primary-600',
       popular: false,
-      badge: 'TASTER'
+      badge: 'TRY IT'
+    },
+    {
+      icon: '💎',
+      title: '4 Session Course',
+      description: 'Visible skin tightening',
+      features: ['4 weekly sessions', 'Collagen stimulation begins', 'Noticeable firming', 'Payment plans available'],
+      price: '£380',
+      oldPrice: '£480',
+      gradient: 'from-primary-400 to-primary-600',
+      popular: false,
+      badge: 'SAVE 20%'
     },
     {
       icon: '✨',
       title: 'Full Course - 8 Sessions',
       description: 'Complete skin transformation',
       features: ['8 weekly sessions', 'Maximum collagen stimulation', 'Full skin tightening results', 'Payment plans available'],
-      price: '£640',
-      oldPrice: '£792',
+      price: '£770',
+      oldPrice: '£960',
       gradient: 'from-primary-500 to-primary-700',
       popular: true,
       badge: 'BEST VALUE'

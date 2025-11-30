@@ -40,10 +40,20 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Single Lipofirm Session",
-            "description": "Single RF skin tightening session - ideal for trying the treatment"
+            "name": "Consultation + First Session",
+            "description": "Skin consultation plus first RF skin tightening session - ideal for trying the treatment"
           },
           "price": "99",
+          "priceCurrency": "GBP"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "4 Session Lipofirm Course",
+            "description": "4 weekly skin tightening sessions for visible skin firming results"
+          },
+          "price": "380",
           "priceCurrency": "GBP"
         },
         {
@@ -53,7 +63,7 @@ export default function StructuredData() {
             "name": "Full Course - 8 Lipofirm Sessions",
             "description": "8 weekly skin tightening sessions for complete skin transformation - ideal for post-weight loss loose skin from Ozempic, Wegovy or Mounjaro"
           },
-          "price": "640",
+          "price": "770",
           "priceCurrency": "GBP"
         }
       ]
@@ -230,15 +240,22 @@ export default function StructuredData() {
       "itemListElement": [
         {
           "@type": "Offer",
-          "name": "Single Lipofirm Session",
+          "name": "Consultation + First Session",
           "price": "99",
           "priceCurrency": "GBP",
-          "description": "Single RF skin tightening session to try the treatment"
+          "description": "Skin consultation plus first RF skin tightening session"
+        },
+        {
+          "@type": "Offer",
+          "name": "4 Session Course",
+          "price": "380",
+          "priceCurrency": "GBP",
+          "description": "4 weekly skin tightening sessions for visible firming results"
         },
         {
           "@type": "Offer",
           "name": "Full Course - 8 Sessions",
-          "price": "640",
+          "price": "770",
           "priceCurrency": "GBP",
           "description": "8 weekly skin tightening sessions for complete transformation - ideal for post-weight loss loose skin from GLP-1 medications"
         }
@@ -295,7 +312,7 @@ export default function StructuredData() {
         "name": "How many sessions will I need?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A full course is 8 weekly sessions at £640. This gives optimal results for skin tightening after weight loss. You'll start seeing improvements from session 3-4, with full results visible after completing the course."
+          "text": "We offer a 4 session course (£380) for visible results, or a full 8 session course (£770) for complete transformation. Start with a consultation + first session for just £99. You'll start seeing improvements from session 3-4, with full results visible after completing the course."
         }
       },
       {

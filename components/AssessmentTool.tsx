@@ -85,23 +85,34 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     const laxity = assessmentAnswers[3]
 
     // Full course of 8 for significant weight loss or GLP-1 users
-    if (laxity === 'significant' || laxity === 'moderate' || cause === 'ozempic' || cause === 'mounjaro' || cause === 'natural' || area === 'multiple') {
+    if (laxity === 'significant' || cause === 'ozempic' || cause === 'mounjaro' || area === 'multiple') {
       return {
         treatment: 'Full Course - 8 Sessions',
-        price: '£640',
-        oldPrice: '£792',
+        price: '£770',
+        oldPrice: '£960',
         description: 'Complete skin transformation package. 8 weekly sessions for optimal collagen stimulation and visible firming results. Ideal for post-weight loss skin tightening.',
         isSuitable: true,
         isBestValue: true
       }
     }
 
-    // Single session for mild concerns or first-timers
+    // 4 session course for moderate concerns
+    if (laxity === 'moderate' || cause === 'natural' || cause === 'pregnancy') {
+      return {
+        treatment: '4 Session Course',
+        price: '£380',
+        oldPrice: '£480',
+        description: '4 weekly sessions for visible skin firming. Great for moderate concerns or targeted treatment areas.',
+        isSuitable: true
+      }
+    }
+
+    // Consultation + first session for mild concerns or first-timers
     if (laxity === 'mild' || cause === 'aging' || cause === 'other') {
       return {
-        treatment: 'Single Lipofirm Session',
+        treatment: 'Consultation + First Session',
         price: '£99',
-        description: 'Try our RF skin tightening treatment. Perfect for mild concerns or to experience the treatment before committing to a full course.',
+        description: 'Try our RF skin tightening treatment with a full consultation. Perfect to experience the treatment before committing to a course.',
         isSuitable: true
       }
     }
@@ -109,8 +120,8 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     // Default to full course of 8
     return {
       treatment: 'Full Course - 8 Sessions',
-      price: '£640',
-      oldPrice: '£792',
+      price: '£770',
+      oldPrice: '£960',
       description: 'Our recommended package for visible skin tightening results. Stimulates collagen production over 8 weekly sessions.',
       isSuitable: true,
       isBestValue: true

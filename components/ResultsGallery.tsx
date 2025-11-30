@@ -217,7 +217,7 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
           {[
             { number: 'Expert', label: 'Practitioner' },
             { number: '100+', label: 'Treatments Completed' },
-            { number: '£640', label: 'Full Course (8)' },
+            { number: '£770', label: 'Full Course (8)' },
             { number: '0', label: 'Downtime' }
           ].map((stat, index) => (
             <div key={index} className="text-center">
