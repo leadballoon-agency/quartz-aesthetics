@@ -40,13 +40,15 @@ export default function Footer() {
               <li><a href="#treatments" className="hover:text-white transition-colors">Treatments</a></li>
               <li><a href="#results" className="hover:text-white transition-colors">Results</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="/skin-assessment" className="hover:text-white transition-colors">Skin Assessment</a></li>
+              <li><a href="/suitability-check" className="hover:text-white transition-colors">Am I Suitable?</a></li>
               <li><a href="https://quartzaesthetics.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Main Website</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-neutral-800 mt-8 pt-8 text-center text-neutral-400">
-          <p className="text-sm sm:text-base mb-2">&copy; 2024 Quartz Aesthetics. All rights reserved.</p>
+          <p className="text-sm sm:text-base mb-2">&copy; 2025 Quartz Aesthetics. All rights reserved.</p>
           <p className="text-xs sm:text-sm text-neutral-500 mb-3">
             <a href="/privacy-policy" className="hover:text-white underline transition-colors">Privacy Policy</a>
           </p>

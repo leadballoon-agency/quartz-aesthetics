@@ -173,7 +173,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
       </div>
 
       {/* Scroll Indicator - Visible on all devices */}
-      <div className="absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-4 sm:bottom-6 left-0 right-0 flex justify-center animate-bounce">
         <div className="flex flex-col items-center">
           <span className="text-xs text-neutral-500 mb-2">Scroll to explore</span>
           <svg className="w-5 h-5 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

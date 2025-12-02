@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import PremiumHero from '@/components/PremiumHero'
 import AssessmentTool from '@/components/AssessmentTool'
@@ -39,6 +40,20 @@ export default function PageWrapper() {
           onBookingClick={() => setIsBookingModalOpen(true)}
           onAssessmentComplete={(data) => setAssessmentData(data)}
         />
+
+        {/* Fat Reduction Callout */}
+        <div className="text-center py-6 bg-neutral-50">
+          <p className="text-neutral-600 text-sm sm:text-base">
+            Looking for fat reduction instead?{' '}
+            <Link
+              href="/skin-assessment"
+              className="text-primary-600 font-medium hover:text-primary-700 underline underline-offset-2"
+            >
+              Take our full body assessment →
+            </Link>
+          </p>
+        </div>
+
         <AboutSection onBookingClick={() => {
           setAssessmentData({ skipToCalendar: true })
           setIsBookingModalOpen(true)

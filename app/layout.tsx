@@ -5,6 +5,7 @@ import './globals.css'
 import StructuredData from '@/components/StructuredData'
 import FacebookPixel from '@/components/FacebookPixel'
 import ConvertBox from '@/components/ConvertBox'
+import ScrollToTop from '@/components/ScrollToTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -79,6 +80,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <FacebookPixel />
           <ConvertBox />
+          <ScrollToTop />
         </Suspense>
         <StructuredData />
         {children}
